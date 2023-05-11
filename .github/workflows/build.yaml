@@ -24,7 +24,7 @@ jobs:
         with:
           arch: arm64
           compiler: clang/11/binutils
-          defconfig: lahaina_QGKI
+          defconfig: defconfig
           image: Image-dtb
 
       - name: Upload final output
